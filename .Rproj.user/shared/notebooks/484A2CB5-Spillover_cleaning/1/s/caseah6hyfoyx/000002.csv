@@ -1,0 +1,14 @@
+"0",""
+"0","Spillover_Mainsheet <- read_csv(here(""data"",""raw_data"",""Virus_Spillover_p1.csv""))"
+"2","Missing column names filled in: 'X28' [28], 'X29' [29], 'X30' [30], 'X31' [31], 'X32' [32], 'X33' [33]"
+"2","Parsed with column specification:
+cols(
+  .default = col_character(),
+  `GenomeAveLenght (bp)` = [32mcol_number()[39m,
+  X33 = [33mcol_logical()[39m
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"0","Spillover_Mainsheet <- Spillover_Mainsheet[c(1:89),c(1:27)]"
+"0","vis_miss(Spillover_Mainsheet)"

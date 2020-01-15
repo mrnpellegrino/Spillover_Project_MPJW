@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579121820947.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1492337606",
+    "id" : "20D328A4",
+    "lastKnownWriteTime" : 1576095931,
+    "last_content_update" : 1579123110751,
+    "path" : "C:/Users/jjw_t/Desktop/CDV_Project/JonathanWilson_Project/code/processing_code/CDV_Processing.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "112,42",
+        "scrollLine" : "108"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
