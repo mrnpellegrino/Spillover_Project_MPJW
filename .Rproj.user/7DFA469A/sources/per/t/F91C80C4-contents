@@ -1,0 +1,44 @@
+---
+title: "Spilloverfile"
+author: "Jonathan Wilson"
+date: "14/01/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(here)
+library(readr)
+library(visdat)
+library(tibble)
+
+```
+```{r}
+
+Spillover_Mainsheet <- read_csv(here("data","raw_data","Virus_Spillover_p1.csv"))
+Spillover_Mainsheet <- Spillover_Mainsheet[c(1:89),c(1:27)]
+vis_miss(Spillover_Mainsheet)
+glimpse(Spillover_Mainsheet)
+unique(Spillover_Mainsheet$Cell_Tropism)
+unique(Spillover_Mainsheet$Cell_Receptor)
+```
+```{r}
+colnames(Spillover_Mainsheet)[11]<-"Genetic_Material" 
+colnames(Spillover_Mainsheet)[12]<-"Stranded"
+colnames(Spillover_Mainsheet)[6]<-"Cross_species_spillover"
+colnames(Spillover_Mainsheet)[14]<-"Enveloped"
+```
+
+```{r}
+library(naniar)
+Spillover_Mainsheet <- Spillover_Mainsheet %>%  replace_with_na(replace = list(Cell_Receptor = "unknown", Cell_Tropism = "unknown", Entry_Mechanism = "unknown", Receptor_Distribution="unknown", Host=c("unknown", "Unknown"), Transmission="unknown"))
+
+
+Spillover_Mainsheet1<- Spillover_Mainsheet %>% mutate(Zoonotic = recode(Zoonotic, "n" = F, "y" = T)) %>% mutate(Cross_species_spillover=recode(Cross_species_spillover, "n"=F, "y"=T))  %>% mutate(Vector=recode(Vector, "n"=F, "y"=T))  %>% mutate(Segmented=recode(Segmented, "n"=F, "y"=T))  %>% mutate(Viraemia=recode(Viraemia, "n"=F, "y"=T))%>% mutate(Enveloped=recode(Enveloped, "enveloped"=T))
+```
+```{r}
+Spillover_Mainsheet2<- Spillover_Mainsheet1%>% dplyr::mutate(Host_Width_new = Host_Range)
+
+Spillover_Mainsheet2$Host_Width_new[grep("Narrow", Spillover_Mainsheet2$Host_Width_new)]
+Spillover_Mainsheet2<- Spillover_Mainsheet2 %>% mutate(Host_Width_new = recode(Host_Width_new, "n" = F, "y" = T))
+```
