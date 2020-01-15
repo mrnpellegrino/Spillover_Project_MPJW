@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579122306449.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5C753B1D",
+    "lastKnownWriteTime" : 3548067076488918113,
+    "last_content_update" : 1579122306449,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "F6DE13E1",
+        "caption" : "Spillover_Mainsheet2",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Spillover_Mainsheet2&cache_key=F6DE13E1",
+        "displayedObservations" : "89",
+        "environment" : "",
+        "expression" : "Spillover_Mainsheet2",
+        "object" : "Spillover_Mainsheet2",
+        "preview" : "0",
+        "totalObservations" : "89",
+        "variables" : "28"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
