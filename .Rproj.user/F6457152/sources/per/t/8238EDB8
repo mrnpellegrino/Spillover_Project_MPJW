@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579119767343.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "361299369",
+    "id" : "8238EDB8",
+    "lastKnownWriteTime" : 1579125459,
+    "last_content_update" : 1579125459651,
+    "path" : "~/FMVZ-USP/INTERCÂMBIO/Spillover project/Spillover_Project_MPJW/code/processing_code/Spillover_cleaning.Rmd",
+    "project_path" : "code/processing_code/Spillover_cleaning.Rmd",
+    "properties" : {
+        "cursorPosition" : "43,25",
+        "scrollLine" : "38"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

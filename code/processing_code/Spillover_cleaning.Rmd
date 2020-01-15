@@ -39,4 +39,9 @@ Spillover_Mainsheet1<- Spillover_Mainsheet %>% mutate(Zoonotic = recode(Zoonotic
 ```{r}
 Spillover_Mainsheet2<- Spillover_Mainsheet1%>% dplyr::mutate(Host_Width_new = Host_Range)
 
-```
+removeWords<- function(str,stopwords){Spillover_Mainsheet2<-unlist(strsplit(str,"rodents"))
+paste(Spillover_Mainsheet2[!Spillover_Mainsheet2 %in% stopwords],collapse="rodents")}
+removeWords(str, rodents)
+
+
+
