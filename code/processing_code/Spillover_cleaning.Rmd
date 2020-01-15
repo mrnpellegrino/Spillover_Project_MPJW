@@ -38,5 +38,5 @@ Spillover_Mainsheet1<- Spillover_Mainsheet %>% mutate(Zoonotic = recode(Zoonotic
 ```
 ```{r}
 Spillover_Mainsheet2<- Spillover_Mainsheet1%>% dplyr::mutate(Host_Width_new = Host_Range)
-p
+
 ```
