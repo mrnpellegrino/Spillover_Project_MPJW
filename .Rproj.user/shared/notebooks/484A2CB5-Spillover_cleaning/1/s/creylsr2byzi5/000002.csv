@@ -1,4 +1,0 @@
-"0","colnames(Spillover_Mainsheet)[11]<-""Genetic_Material"" "
-"0","colnames(Spillover_Mainsheet)[12]<-""Stranded"""
-"0","colnames(Spillover_Mainsheet)[6]<-""Cross_species_spillover"""
-"0","colnames(Spillover_Mainsheet)[14]<-""Enveloped"""
