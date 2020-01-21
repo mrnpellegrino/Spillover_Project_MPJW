@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2562147683",
+    "hash" : "0",
     "id" : "8238EDB8",
-    "lastKnownWriteTime" : 1579125675,
-    "last_content_update" : 1579125675326,
+    "lastKnownWriteTime" : 1579294266,
+    "last_content_update" : 1579294267213,
     "path" : "~/FMVZ-USP/INTERCÂMBIO/Spillover project/Spillover_Project_MPJW/code/processing_code/Spillover_cleaning.Rmd",
     "project_path" : "code/processing_code/Spillover_cleaning.Rmd",
     "properties" : {
-        "cursorPosition" : "42,0",
-        "scrollLine" : "39"
+        "cursorPosition" : "64,0",
+        "scrollLine" : "49"
     },
     "read_only" : false,
     "read_only_alternatives" : [
